@@ -1,0 +1,77 @@
+
+/* CONTENEDOR */
+.detalle .data {
+	width: 80%;
+	margin: auto;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+/* IMAGEN */
+.detalle .picture {
+	margin:16px;
+}
+
+.detalle .picture img {
+	width:400px;
+	height:400px;
+}
+/* DATA */
+.detalle .side {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 0;
+	padding: 20px;
+}
+
+.detalle .stateSold {
+	font-size:14px;
+	display: inline-block;
+}
+.detalle .itemName {
+	margin-top:16px;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.detalle .itemPrecio {
+	padding:16px 0;
+	font-size:46px;
+}
+
+
+.detalle sup {
+	font-size:22px;
+}
+.detalle .btnComprar {
+	padding:16px;
+	border-radius:5px;
+	background-color:#ef629f;
+	color:white;
+	text-align:center;
+}
+
+/* DESCRIPCION */
+
+.detalle .descripcion {
+	width: 80%;
+	margin: auto;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align:justify;
+	padding: 20px;
+}
+
+.detalle h3 {
+	margin:32px 0;
+}
+
+.detalle pre {
+	white-space: pre-wrap;
+	font-family:sans-serif;
+}
